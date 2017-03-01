@@ -95,6 +95,8 @@
   #include "pins_AZTEEG_X3_PRO.h"
 #elif MB(ULTIMAKER)
   #include "pins_ULTIMAKER.h"
+#elif MB(GT2560)
+  #include "pins_GT2560.h"
 #elif MB(ULTIMAKER_OLD)
   #include "pins_ULTIMAKER_OLD.h"
 #elif MB(ULTIMAIN_2)
