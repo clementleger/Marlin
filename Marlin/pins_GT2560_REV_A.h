@@ -36,12 +36,12 @@
 #define DEFAULT_MACHINE_NAME "Prusa i3 Pro B"
 
 #define SERVO0_PIN         32 // untested
-
+#define FIL_RUNOUT_PIN	   24	
 //
 // Limit Switches
 //
 #define X_MIN_PIN          22
-#define X_MAX_PIN          24
+#define X_MAX_PIN          -1 //24
 #define Y_MIN_PIN          26
 #define Y_MAX_PIN          -1
 #define Z_MIN_PIN          28
